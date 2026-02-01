@@ -1,0 +1,29 @@
+{
+  "name": "qa_framework",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint . --ext .ts",
+    "smoke": "npx playwright test --grep @smoke",
+    "regression": "npx playwright test --grep @regression --headed"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@eslint/js": "^9.39.1",
+    "@playwright/test": "^1.57.0",
+    "@types/node": "^24.10.1",
+    "@typescript-eslint/eslint-plugin": "^8.48.1",
+    "@typescript-eslint/parser": "^8.48.1",
+    "eslint": "^9.39.1",
+    "globals": "^16.5.0",
+    "typescript": "^5.9.3",
+    "typescript-eslint": "^8.48.1"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3"
+  }
+}
