@@ -6,7 +6,9 @@
   "scripts": {
     "lint": "eslint . --ext .ts",
     "smoke": "npx playwright test --grep @smoke",
-    "regression": "npx playwright test --grep @regression --headed"
+    "regression": "npx playwright test --grep @regression",
+    "tests": "npx playwright test",
+    "report": "npx playwright show-report"
   },
   "keywords": [],
   "author": "",
