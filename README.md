@@ -14,7 +14,7 @@ This project is a basic QA automation framework built using **Playwright** and *
 
 Make sure you have the following installed:
 
-* **Tirios** application must be initialized:
+* **BesCity** application must be initialized:
     * **Repo**: https://bitbucket.org/0xb2tirios/bestcity-mvp/src/main/
 * **Node.js** (v18 or higher recommended)
 * **npm** (comes with Node.js)
