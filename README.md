@@ -14,8 +14,8 @@ This project is a basic QA automation framework built using **Playwright** and *
 
 Make sure you have the following installed:
 
-* **BesCity** application must be initialized:
-    * **Repo**: https://bitbucket.org/0xb2tirios/bestcity-mvp/src/main/
+* **App** application must be initialized:
+    * **Repo**: Not available.
 * **Node.js** (v18 or higher recommended)
 * **npm** (comes with Node.js)
 
